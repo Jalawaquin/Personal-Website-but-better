@@ -1,0 +1,46 @@
+#about, #music, #film, #coding, #contact{
+    position: fixed;
+    border: 2px solid black;
+}
+
+#about{
+    background-color: red;
+    top: 0;
+    left: 0;
+    min-width: 50%;
+    min-height: 30%;
+}
+
+#music{
+    background-color: blue;
+    bottom: 0;
+    left: 0;
+    min-width: 50%;
+    min-height: 70%;
+}
+
+#film{
+    background-color: purple;
+    top: 0;
+    right: 0;
+    min-width: 50%;
+    min-height: 20%;    
+}
+
+#coding{
+    background-color: orange;
+    bottom: 0;
+    right: 25%;
+    min-width: 25%;
+    min-height: 80%; 
+}
+
+#contact{
+    background-color: green;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    min-width: 25%;
+    min-height: 80%;     
+}
+
